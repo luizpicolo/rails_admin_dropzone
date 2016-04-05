@@ -1,7 +1,7 @@
 pt-BR:
   admin:
     actions:
-      multiple_upload:
+      dropzone:
         dictDefaultMessage: "Clique ou arraste arquivos aqui para enviar"
         dictFallbackMessage: "Seu navegador não suporta Drag and Drop para upload de arquivos."
         dictFallbackText: "Por favor, use o formulário abaixo para fazer upload de seus arquivos, como nos velhos tempos."

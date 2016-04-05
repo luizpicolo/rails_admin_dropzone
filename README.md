@@ -2,6 +2,14 @@
 
 Easy to use integration of drag&amp;drop files upload via dropzone.js for rails_admin
 
+# Screenshot
+
+#### Dropzone
+![Imgur](http://i.imgur.com/PbfSMqy.png)
+
+#### Upload images
+![Imgur](http://i.imgur.com/GiVG0YX.png)
+
 ## How to use
 
 Clone repository in your project    
