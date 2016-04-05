@@ -1,0 +1,11 @@
+ @import "dropzone/basic";
+
+.dropzone.dz-clickable {
+  cursor: pointer;
+  border: 2px dashed #bbb;;
+}
+
+.dz-message {
+  padding: 40px;
+  text-align: center;
+}
