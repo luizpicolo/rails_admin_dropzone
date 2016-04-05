@@ -1,6 +1,6 @@
 # Custom Action to RailsAdmin with Dropzone.js Multiple File Upload
 
-Helper gem, used to add a custom action to RailsAdmin for multiple file uploading.
+Easy to use integration of drag&amp;drop files upload via dropzone.js for rails_admin
 
 ## How to use
 
