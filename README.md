@@ -19,6 +19,7 @@ Clone repository in your project
 Add in Gemfile (Path is important)
 
 ```ruby
+gem 'dropzonejs-rails'
 gem 'rails_admin_dropzone', path: 'rails_admin_dropzone'
 ```
 
