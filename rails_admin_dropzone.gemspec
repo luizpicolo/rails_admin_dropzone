@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = ["luizpicolo@gmail.com"]
   s.homepage    = "https://github.com/luizpicolo/rails_admin_dropzone"
   s.summary     = "RailsAdmin dropzone.js"
-  s.description = "Easy to use integration of drag&drop files upload via dropzone.js for ActiveAdmin"
+  s.description = "Easy to use integration of drag&drop files upload via dropzone.js for RailsAdmin"
   s.licenses    = ['MIT-LICENSE']
 
   s.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
