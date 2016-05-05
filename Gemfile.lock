@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    rails_admin_dropzone (1.0.2)
-      dropzonejs-rails (~> 0.4.16)
+    rails_admin_dropzone (1.0.3)
+      dropzonejs-rails (~> 0.7.3)
       jquery-rails (>= 3.0, < 5)
       simple_form (~> 3.2)
 
@@ -48,7 +48,7 @@ GEM
     builder (3.2.2)
     concurrent-ruby (1.0.1)
     diff-lcs (1.2.5)
-    dropzonejs-rails (0.4.16)
+    dropzonejs-rails (0.7.3)
       rails (> 3.1)
     erubis (2.7.0)
     globalid (0.3.6)

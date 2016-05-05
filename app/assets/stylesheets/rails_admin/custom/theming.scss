@@ -5,6 +5,13 @@
   border: 2px dashed #bbb;;
 }
 
+.dz-filename { display: none !important }
+.dz-preview {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: auto !important;
+}
+
 .dz-message {
   padding: 40px;
   text-align: center;

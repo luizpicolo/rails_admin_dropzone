@@ -7,3 +7,4 @@ test/dummy/tmp/
 test/dummy/.sass-cache
 test_app/
 .idea/*
+*.gem
