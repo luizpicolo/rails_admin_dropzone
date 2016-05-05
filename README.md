@@ -1,5 +1,7 @@
 # Custom Action to RailsAdmin with Dropzone.js Multiple File Upload
 
+[![Gem Version](https://badge.fury.io/rb/rails_admin_dropzone.svg)](https://badge.fury.io/rb/rails_admin_dropzone)
+
 Easy to use integration of drag&amp;drop files upload via dropzone.js for rails_admin
 
 # Screenshot
