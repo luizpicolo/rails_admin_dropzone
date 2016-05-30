@@ -1,2 +1,5 @@
+= stylesheet_link_tag 'rails_admin/rails_admin_dropzone'
+= javascript_include_tag 'rails_admin/rails_admin_dropzone'
+
 = simple_form_for(rails_admin.dropzone_url(@abstract_model.to_param, id: @object.id), html: { class: 'dropzone', multipart: true }) do |f|
   = f.input :id, :as => :hidden, :input_html => { :name => "id", :value => @object.id }
