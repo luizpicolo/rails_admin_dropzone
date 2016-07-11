@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_admin_dropzone (1.0.5)
+    rails_admin_dropzone (1.0.6)
       dropzonejs-rails (~> 0.7.3)
       jquery-rails (>= 3.0, < 5)
       simple_form (~> 3.2)

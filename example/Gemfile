@@ -18,7 +18,7 @@ gem 'coffee-rails', '~> 4.1.0'
 ## Example gems
 gem 'carrierwave'
 gem 'rails_admin'
-gem 'rails_admin_dropzone'
+gem 'rails_admin_dropzone', path: '/home/w3case/ruby/rails_admin_dropzone'
 
 
 # Use jquery as the JavaScript library

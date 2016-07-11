@@ -1,5 +1,29 @@
 = stylesheet_link_tag 'rails_admin/rails_admin_dropzone'
 = javascript_include_tag 'rails_admin/rails_admin_dropzone'
 
+:javascript
+  $(document).on('rails_admin.dom_ready', function() {
+    // disable auto discover
+    Dropzone.autoDiscover = true;
+    if ($(".dropzone").length){
+      var dropzone = new Dropzone (".dropzone", {
+        maxFilesize: 256, // Set the maximum file size to 256 MB
+        paramName: "#{@object.class.to_s.downcase}[second_attr][]", // Rails expects the file upload to be something like model[field_name]
+        addRemoveLinks: false, // Don't show remove links on dropzone itself.
+        // Translations
+        dictDefaultMessage: "#{I18n.t('admin.actions.dropzone.dictDefaultMessage')}",
+        dictFallbackMessage: "#{I18n.t('admin.actions.dropzone.dictFallbackMessage')}",
+        dictFallbackText: "#{I18n.t('admin.actions.dropzone.dictFallbackText')}",
+        dictFileTooBig: "#{I18n.t('admin.actions.dropzone.dictFileTooBig')}",
+        dictInvalidFileType: "#{I18n.t('admin.actions.dropzone.dictInvalidFileType')}",
+        dictResponseError: "#{I18n.t('admin.actions.dropzone.dictResponseError')}",
+        dictCancelUpload: "#{I18n.t('admin.actions.dropzone.dictCancelUpload')}",
+        dictCancelUploadConfirmation: "#{I18n.t('admin.actions.dropzone.dictCancelUploadConfirmation')}",
+        dictRemoveFile: "#{I18n.t('admin.actions.dropzone.dictRemoveFile')}",
+        dictMaxFilesExceeded: "#{I18n.t('admin.actions.dropzone.dictMaxFilesExceeded')}"
+      });
+    }
+  });
+
 = simple_form_for(rails_admin.dropzone_url(@abstract_model.to_param, id: @object.id), html: { class: 'dropzone', multipart: true }) do |f|
   = f.input :id, :as => :hidden, :input_html => { :name => "id", :value => @object.id }

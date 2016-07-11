@@ -27,7 +27,7 @@ RailsAdmin.config do |config|
     bulk_delete
 
     dropzone do
-      only Album
+      only [Album, Product]
     end
 
     show
