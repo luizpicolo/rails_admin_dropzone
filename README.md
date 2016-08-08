@@ -22,6 +22,8 @@ gem 'rails_admin_dropzone'
 
 ## IMPORTANT:
 
+ - Test with rails < 5 and TurboLink < 5
+
 ```ruby
 class Album < ActiveRecord::Base
   has_many :photos
@@ -64,7 +66,11 @@ RailsAdmin.config do |config|
   end
 end
 ```
-and "Voalá"    
+and "Voalá"  
+
+## TODO
+
+ - Adjustments to work with Turbolinks 5
 
 ## Contributing
 
