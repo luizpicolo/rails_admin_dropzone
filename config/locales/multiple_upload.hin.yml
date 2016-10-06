@@ -1,0 +1,21 @@
+hin:
+  admin:
+    actions:
+      dropzone:
+        dictDefaultMessage: "अपलोड करने के लिए फ़ाइलें यहां छोड़ें"
+        dictFallbackMessage: "आपका ब्राउज़र ड्रैग 'न ' ड्रॉप फाइल अपलोड का समर्थन नहीं करता।"
+        dictFallbackText: "पुराने दिनों की तरह अपनी फाइल को अपलोड करने के लिए नीचे के वापस आने के फार्म का उपयोग करें।"
+        dictFileTooBig: "File is too big ({{filesize}}MiB). Max filesize: {{मैक्सफिलेसिज }}मिब ."
+        dictInvalidFileType: "आप इस प्रकार की फ़ाइलों को अपलोड नहीं कर सकते।"
+        dictResponseError: "सर्वर {{स्टेटस कोड }} कोड के साथ जवाब दिया।"
+        dictCancelUpload: "रद्द अपलोड"
+        dictCancelUploadConfirmation: "क्या आप वाकई इस अपलोड रद्द करना चाहते हैं?"
+        dictRemoveFile: "फ़ाइल को हटाएं"
+        dictMaxFilesExceeded: "आप किसी भी अधिक फ़ाइलों को अपलोड नहीं कर सकते।"
+
+        title: "अनेक  अपलोड"
+        menu: "अनेक अपलोड  फॉर %{मॉडल _लेबल} '%{ऑब्जेक्ट _लेबल}'"
+        breadcrumb: "अनेक  अपलोड"
+        link: "अनेक  अपलोड"
+        bulk_link: "अनेक  अपलोड सिलेक्टेड %{मॉडल _लेबल_प्लुरल}"
+done: "अनेक  अपलोड"
