@@ -5,7 +5,7 @@ hin:
         dictDefaultMessage: "अपलोड करने के लिए फ़ाइलें यहां छोड़ें"
         dictFallbackMessage: "आपका ब्राउज़र ड्रैग 'न ' ड्रॉप फाइल अपलोड का समर्थन नहीं करता।"
         dictFallbackText: "पुराने दिनों की तरह अपनी फाइल को अपलोड करने के लिए नीचे के वापस आने के फार्म का उपयोग करें।"
-        dictFileTooBig: "File is too big ({{filesize}}MiB). Max filesize: {{मैक्सफिलेसिज }}मिब ."
+        dictFileTooBig: "फाइल इस तू बिग  ({{फिलेसिज}}मिब). मैक्स फिलेसिज: {{मैक्सफिलेसिज }}मिब ."
         dictInvalidFileType: "आप इस प्रकार की फ़ाइलों को अपलोड नहीं कर सकते।"
         dictResponseError: "सर्वर {{स्टेटस कोड }} कोड के साथ जवाब दिया।"
         dictCancelUpload: "रद्द अपलोड"
