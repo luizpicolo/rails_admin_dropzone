@@ -3,8 +3,8 @@ fi:
     actions:
       dropzone:
         dictDefaultMessage: "Pudota tiedostot tähän ladataksesi"
-        dictFallbackMessage: "Selaimesi ei tue drag'n'drop tiedostojen latausta."
-        dictFallbackText: "Please use the fallback form below to upload your files like in the olden days."
+        dictFallbackMessage: "Selaimesi ei tue 'raahaa ja pudota' tiedostojen latausta."
+        dictFallbackText: "Ole hyvä ja käytä perinteistä lomaketta tiedostojen lataamiseksi."
         dictFileTooBig: "Tiedosto on liian suuri ({{filesize}}MiB). Maksimikoko on: {{maxFilesize}}MiB."
         dictInvalidFileType: "Et voi ladata tätä tyyppiä olevia tiedostoja."
         dictResponseError: "Palvelin vastasi {{statusCode}} koodilla."
