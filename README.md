@@ -68,12 +68,6 @@ end
 ```
 and "Voalá"  
 
-## Locales
-
- - pt-BR
- - en
- - ru
-
 ## TODO
 
  - Adjustments to work with Turbolinks 5
