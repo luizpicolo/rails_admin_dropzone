@@ -1,0 +1,21 @@
+de:
+  admin:
+    actions:
+      dropzone:
+        dictDefaultMessage: "Ziehe die Dateien hier hin, um sie hochzuladen"
+        dictFallbackMessage: "Ihr browser unterstützt keine drag-and-datei-uploads fallen."
+        dictFallbackText: "Bitte benutzen sie das untenstehende formular aus ausweich ihre dateien wie in den alten tagen zu laden."
+        dictFileTooBig: "Die Datei ist zu groß ({{filesize}}MiB). Max dateigröße: {{maxFilesize}}MiB."
+        dictInvalidFileType: "Sie können keine dateien dieses typs hochladen."
+        dictResponseError: "Server reagiert mit {{statusCode}} code."
+        dictCancelUpload: "Upload abbrechen"
+        dictCancelUploadConfirmation: "Sind sie sicher, dass sie diesen Upload abbrechen möchten?"
+        dictRemoveFile: "Datei löschen"
+        dictMaxFilesExceeded: "Sie können keine weiteren dateien hochladen."
+
+        title: "Mehrere hochladen"
+        menu: "Mehrere hochladen für %{model_label} '%{object_label}'"
+        breadcrumb: "Mehrere hochladen"
+        link: "Mehrere hochladen"
+        bulk_link: "Mehrere hochladen ausgewählt %{model_label_plural}"
+        done: "Mehrere hochgeladene"
