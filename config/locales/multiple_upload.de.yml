@@ -14,8 +14,8 @@ de:
         dictMaxFilesExceeded: "Sie können keine weiteren dateien hochladen."
 
         title: "Mehrere hochladen"
-        menu: "Mehrere upload für %{model_label} '%{object_label}'"
+        menu: "Mehrere hochladen für %{model_label} '%{object_label}'"
         breadcrumb: "Mehrere hochladen"
         link: "Mehrere hochladen"
-        bulk_link: "Mehrere Hochladen ausgewählt %{model_label_plural}"
+        bulk_link: "Mehrere hochladen ausgewählt %{model_label_plural}"
         done: "Mehrere hochgeladene"
