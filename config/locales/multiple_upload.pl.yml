@@ -19,4 +19,3 @@ en:
         link: "Prześlij kilka plików"
         bulk_link: "Zaznaczono przesyłanie kilku plików %{model_label_plural}"
         done: "Kilka plików przesłano"
-
