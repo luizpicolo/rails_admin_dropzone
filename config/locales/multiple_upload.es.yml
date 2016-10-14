@@ -4,10 +4,10 @@ es:
       dropzone:
         dictDefaultMessage: "Arrastra archivos aquí para subirlos"
         dictFallbackMessage: "Tu navegador no soporta subir archivos arrastrándolos."
-        dictFallbackText: "Porfavor usa el formulario para subir tus archivos como en los viejos tiempos."
+        dictFallbackText: "Por favor usa el formulario para subir tus archivos como en los viejos tiempos."
         dictFileTooBig: "El archivo es muy grande ({{filesize}}MiB). Tamaño máximo: {{maxFilesize}}MiB."
         dictInvalidFileType: "No puedes subir archivos de este tipo."
-        dictResponseError: "El servidor respondió con un código {{statusCode}}."
+        dictResponseError: "El servidor respondió con código {{statusCode}}."
         dictCancelUpload: "Cancelar subida"
         dictCancelUploadConfirmation: "¿Estas seguro que quieres cancelar esta subida?"
         dictRemoveFile: "Eliminar archivo"
