@@ -8,8 +8,8 @@ by:
         dictFileTooBig: "Файл занадта вялікі ({{filesize}}Мб). Максімальны памер: {{maxFilesize}}Мб."
         dictInvalidFileType: "Вы не можаце загружаць файлы дадзенага тыпу."
         dictResponseError: "Сервер адказаў статусам {{statusCode}}"
-        dictCancelUpload: "Адмяніць загрузку"
-        dictCancelUploadConfirmation: "Вы ўпэўненыя, што хочаце адмяніць загрузку?"
+        dictCancelUpload: "Скасаваць загрузку"
+        dictCancelUploadConfirmation: "Вы ўпэўнены, што хочаце скасаваць загрузку?"
         dictRemoveFile: "Выдаліць файл"
         dictMaxFilesExceeded: "Вы не можаце загрузіць больш файлаў."
 
