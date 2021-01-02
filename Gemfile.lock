@@ -4,6 +4,7 @@ PATH
     rails_admin_dropzone (1.1.0)
       dropzonejs-rails (~> 0.8.5)
       jquery-rails (>= 4.0, < 5)
+      nokogiri (>= 1.11.0.rc4)
       simple_form (~> 5.0)
 
 GEM
@@ -93,11 +94,15 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.5.0)
     minitest (5.14.2)
     nio4r (2.5.4)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.0.rc4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.0.rc4-x86_64-darwin)
+      racc (~> 1.4)
+    racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -171,4 +176,4 @@ DEPENDENCIES
   rspec (~> 3.10)
 
 BUNDLED WITH
-   2.2.0
+   2.2.3
