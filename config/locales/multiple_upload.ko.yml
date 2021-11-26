@@ -1,0 +1,21 @@
+ko:
+  admin:
+    actions:
+      dropzone:
+        dictDefaultMessage: "여기에 업로드할 파일을 놓으세요."
+        dictFallbackMessage: "당신의 웹브라우저는 드래그앤드롭을 지원하지 않습니다."
+        dictFallbackText: "예전처럼 파일을 업로드하려면 아래의 대체 양식을 사용하세요."
+        dictFileTooBig: "파일이 {{filesize}}MiB 으로 너무 큽니다. 최대 크기는 {{maxFilesize}}MiB 입니다."
+        dictInvalidFileType: "당신은 이 형식의 파일을 업로드할수 없습니다."
+        dictResponseError: "서버가 {{statusCode}} 코드를 응답하였습니다."
+        dictCancelUpload: "업로드 취소"
+        dictCancelUploadConfirmation: "당신은 정말 업로드를 취소하시겠습니까?"
+        dictRemoveFile: "파일 삭제"
+        dictMaxFilesExceeded: "당신은 더 이상 파일을 업로드할수 없습니다."
+
+        title: "여러개 업로드"
+        menu: "%{model_label} '%{object_label}' 의 여러 파일 업로드"
+        breadcrumb: "여러 업로드"
+        link: "여러 업로드"
+        bulk_link: "%{model_label_plural} 여러 파일 업로드가 선택되었음"
+        done: "완료 되었습니다"
