@@ -22,7 +22,8 @@ gem 'rails_admin_dropzone'
 
 ## IMPORTANT:
 
- - Test with rails < 5 and TurboLink < 5
+**For versions of rails below 5, use version [V1.0.1](https://github.com/luizpicolo/rails_admin_dropzone/releases/tag/V.1.0.1)**
+**Tested with Rails 6**
 
 ```ruby
 class Album < ActiveRecord::Base
@@ -70,7 +71,8 @@ and "Voalá"
 
 ## TODO
 
- - Adjustments to work with Turbolinks 5
+- [x] Adjustments to work with Turbolinks 5
+- [ ] Add Tests
 
 ## Contributing
 
