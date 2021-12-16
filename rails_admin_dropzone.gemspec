@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "dropzonejs-rails", "~> 0.8.5"
   s.add_dependency "nokogiri", ">= 1.11.0.rc4"
 
-  s.add_development_dependency "rails", [">= 6.0", "< 7"]
+  s.add_development_dependency "rails", ">= 6.0", "< 8"
   s.add_development_dependency "bundler", "~> 2.2"
   s.add_development_dependency "rake", "~> 13.0"
   s.add_development_dependency "rspec", "~> 3.10"
